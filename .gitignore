@@ -1,0 +1,42 @@
+# Rust/Cargo build artifacts
+/target/
+**/target/
+Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.#*
+
+# Rust-specific
+*.pdb
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Documentation build artifacts
+/doc/
+
+# Backup files
+*.bak
+*.backup
+
+# Test artifacts
+/tests/target/
